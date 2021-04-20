@@ -10,12 +10,11 @@ body {
 
 header {
     background-color: #fff;
-    padding: 10px;
 }
 
 header img {  
     vertical-align: middle;
-    padding: 5px 5px 5px 30px;   
+    padding: 15px 5px 15px 30px;   
 }
 
 header span {
@@ -40,9 +39,11 @@ main header {
 main section {
     background-color: #fff;
     margin-top: 2px;
+    margin-bottom: 15px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     padding-left: 50px;
+    padding-bottom: 30px;
 }
 
 button {
@@ -53,7 +54,7 @@ button {
 #addtext {
     background-color: #47ADF1;
     color: white;
-    border: 0;
+    border: 1px solid #47ADF1;
 }
 
 #addsection {
@@ -85,15 +86,26 @@ ul {
     border-top: 8px solid #5D6169;
 }
 
-.donelist {
+.donelist, .todolist {
     font-size: 15px;
     font-weight: normal;
-    padding-top: 5px;
+    padding-top: 8px;
+    padding-bottom: 10px;
 }
+
 .donelist::before {
     content: "\2714";
     color: #6DC4AF;
     border: 1px solid #6DC4AF;
+    border-radius: 50%;
+    padding: 1px 3px;
+    margin-right: 5px;
+}
+
+.todolist::before {
+    content: "\2716";
+    color: red;
+    border: 1px solid red;
     border-radius: 50%;
     padding: 1px 3px;
     margin-right: 5px;
@@ -109,4 +121,24 @@ ul {
 
 .editorial {
     background-color: #45ABEA;
+}
+
+.goals {
+    background-color: #9C72E4;
+}
+
+.recruiting {
+    background-color: #64C0A9;
+}
+
+.mobile {
+    background-color: #F29E33;
+}
+
+.website {
+    background-color: #D863A1;
+}
+
+.sales {
+    background-color: #B0C926;
 }
