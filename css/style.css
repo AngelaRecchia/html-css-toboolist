@@ -98,3 +98,15 @@ ul {
     padding: 1px 3px;
     margin-right: 5px;
 }
+
+.etichetta {
+    font-size: 10px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 3px 7px;
+}
+
+.editorial {
+    background-color: #45ABEA;
+}
