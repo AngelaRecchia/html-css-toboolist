@@ -1,35 +1,32 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial , Helvetica, sans-serif;
 }
+
 body {
     background-color: #F6F8F9;
 }
 
 header {
     background-color: #fff;
-    padding-bottom: 30px;
+    padding: 10px;
 }
 
 header img {  
-    line-height: 50px;
-    padding: 5px 15px 5px 30px;
     vertical-align: middle;
+    padding: 5px 5px 5px 30px;   
 }
 
 header span {
     font-size: 35px;
     font-weight: bolder;
+    vertical-align: middle;
 }
 
 main {
     width: 60%;
     margin: auto;
-    
-    
-    
-    
 }
 
 main header {
@@ -42,10 +39,10 @@ main header {
 
 main section {
     background-color: #fff;
-    margin-top: 5px;
+    margin-top: 2px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding: 10px 50px;
+    padding-left: 50px;
 }
 
 button {
@@ -67,15 +64,17 @@ button {
 
 ul {
     padding-inline-start: 0px;
-}
-li {
     list-style: none;
-    font-size: 20px;
-    font-weight: bold;
     color: #5D6169;
 }
 
-li::before {
+.outlist {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.outlist::before {
     display: inline-block;
     content: " ";
     width: 0;
@@ -84,4 +83,18 @@ li::before {
     border-left-width: 8px;
     border-right-width: 8px;
     border-top: 8px solid #5D6169;
+}
+
+.donelist {
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 5px;
+}
+.donelist::before {
+    content: "\2714";
+    color: #6DC4AF;
+    border: 1px solid #6DC4AF;
+    border-radius: 50%;
+    padding: 1px 3px;
+    margin-right: 5px;
 }
