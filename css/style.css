@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #F6F8F9;
+}
+
+header {
+    background-color: #fff;
+}
+header img {  
+    line-height: 50px;
+    padding: 5px 15px 5px 30px;
+    vertical-align: middle;
+}
+header span {
+    font-size: 35px;
+    font-weight: bolder;
+}
